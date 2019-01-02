@@ -1,0 +1,78 @@
+.main_border {border: 1px solid #000000;}
+
+
+p {font-family:  Verdana; font-size: 12px; margin: 15px;}
+.left {border-color: #F6F6F6; border-right: 1px solid #424242;}
+
+body {background-image: url('gr/bg.gif');
+	
+	
+}
+
+.title {background-color: brown; color: white; width:88%; margin: 5px;	padding: 7px;font-weight: bold;
+}
+
+#coolmenu{
+border: 1px solid gray; /*Стиль рамки */
+border-bottom-width: 0;
+width: 93%; /*Ширина меню */
+background-color: #f6f6f6;  /*Фоновый цвет ячейки*/
+margin:7px; /*Ширина отступов*/
+}
+
+
+* html #coolmenu{ 
+width: 150px;/*Ширина меню для Internet Explorer*/
+}
+
+#coolmenu a{
+font: bold 13px Verdana; /*Шрифт текста*/
+padding: 2px; /*Внутренний отсутп текста ссылки от краев ячейки*/
+padding-left: 4px;/*Внутренний отсутп текста ссылки от левого края ячейки*/
+display: block;
+width: 100%; /*Ширина ячейки*/
+color: #000000;  /*Цвет текста*/
+text-decoration: none; /*Подчеркивание у ссылок - нет*/
+border-bottom: 1px solid gray;
+}
+
+html>body #coolmenu a{ 
+width: auto;
+}
+
+#coolmenu a:hover{
+background-color: #cccccc; /*Фоновый цвет ячейки при наведение курсора*/
+color: #000000;  /*Цвет текста при наведении курсора*/
+}
+
+/*.form {border: 1px solid #000000;}*/
+
+p.title_form {
+background-color:darkorange;
+color: #ffffff;
+font-weight:bold;
+margin:5px;
+padding:5px;
+}
+.form .form2 { font-size: 11px;}
+.form { 
+border: 1px solid #525050;
+width: 90%;
+	margin:auto;
+}
+.form p {font-size: 9px;}
+
+.submit {align: center; margin-left:40px;}
+
+.lesson_table {border: 1px solid #cccccc; width: 95%;
+margin-bottom: 10px;
+} /*Ширина таблицы уроков */
+.lesson_title {background-color:  #F6F6F6;}
+.lesson_name {margin-top: 7px;
+margin-bottom: 7px;
+font-weight: bold;
+}
+
+.title_text_lesson {color:tomato; font-size: 18px;}
+.title_date {margin-top: 7px; margin-bottom: 7px; font-size: 11px; font-weight: bold; color: #424242;
+}
